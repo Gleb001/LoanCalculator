@@ -1,12 +1,12 @@
 
+# Translation of documentation
+* [RU version](#Документация-к-скриптовой-части-проекта)
+* [EN version](#Documentation-for-the-script-part-of-the-project)
+
+# Документация к скриптовой части проекта
+
 Идея и начальная реализация калькулятора для займов
 была взята у [vitya101](https://github.com/vitya101).
-
-# Translation of documentation
-* [На русском](#Документация-к-JavaScript-части-проекта)
-* [In English](#Documentation-for-the-JavaScript-part-of-the-project)
-
-# Документация к JavaScript части проекта
 
 ## Оглавление
 * [Архитектура проекта](##Архитектура-проекта)
@@ -94,7 +94,10 @@
 огромное значение при его разработке и отладке.
 
 
-# Documentation for the JavaScript part of the project
+# Documentation for the script part of the project
+
+The idea and initial implementation of the loan calculator
+was taken from [vitya101](https://github.com/vitya101 ).
 
 ## Table of contents
 * [Project architecture](##Project-architecture)
