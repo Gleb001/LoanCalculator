@@ -1,0 +1,22 @@
+
+/* imports ====================================== */
+
+/* cylcyblator info */
+@import "./cylcyblator_info/cylcyblator_info.css";
+
+/* cylcyblator window */
+@import "./cylcyblator_window/cylcyblator_window.css";
+
+/* pricelog */
+@import "./info_for_buyer/info_for_buyer.css";
+
+/* slider labels */
+@import "./slider_labels/slider_labels.css";
+
+
+
+/* cylcyblator section ========================== */
+.cylcyblator {
+    width: 100%;
+    margin: 10px 0;
+}

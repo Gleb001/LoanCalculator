@@ -1,0 +1,60 @@
+
+/* imports ====================================== */
+
+/* normalize CSS */
+@import './normalizeCSS/normalize.css';
+
+/* cylcyblator */
+@import './cylcyblator/cylcyblator.css';
+
+
+
+/* main styles ================================== */
+:root {
+    --primary-color:    white;
+    --secondary-color:  black;
+    --third-color:      #1E1E1E;
+    --fourth-color:     #D3B517;
+    --secret-color:     rgb(0, 114, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    width: 100%;
+    margin: 0 auto;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: var(--primary-color);
+
+    background-color: var(--third-color);
+
+}
+
+.container {
+
+    margin: 0 auto;
+
+    max-width: 1600px;
+    min-width: 320px;
+
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+
+
+
+/* media ========================================  */
+@media screen and (max-width: 564px) {
+    
+    .container {
+        padding: 40px 10px;
+    }
+
+}

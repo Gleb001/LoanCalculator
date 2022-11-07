@@ -1,0 +1,24 @@
+
+/* cylcyblator info */
+.cylcyblator__info {
+    
+    margin: 25px auto;
+    display: inline-block;
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.cylcyblator__name {
+
+    display: inline-block;
+    margin: 10px 0;
+
+    font-size: 2em;
+
+}
+
+.cylcyblator__name::first-letter {
+    text-transform: capitalize;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- добавление кодировки -->
+    <meta charset="UTF-8">
+    <!-- поддержка IE браузера -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- подключение "оптимизации" под разные устройства -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- подключение Google Fonts (шрифтов) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- подключение CSS (стилей) -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- Наименование сайта -->
+    <title>Кулькулятор</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="cylcyblator">
+            <div class="cylcyblator__info">
+                <h1 class="cylcyblator__name">калькулятор займа</h1>
+            </div>
+            <div class="cylcyblator_window">
+                <form id="cylcyblator_form" action="">
+                    <div class="pricecont">
+                        <label>
+                            <p>Цена:</p>
+                            <input id="price" type="text" data-prefix=" руб.">
+                        </label>
+                        <div class="slider_container">
+                            <input type="range" min="100000" max="10000000" value="0" step="100000" class="slider"
+                                id="priceSlider">
+                        </div>
+                    </div>
+                    <div class="termcont">
+                        <label>
+                            <p>Срок:</p>
+                            <input id="term" type="text" data-prefix=" мес.">
+                        </label>
+                        <div class="slider_container">
+                            <input type="range" min="1" max="60" value="0" step="1" class="slider" id="termSlider">
+                        </div>
+                    </div>
+                </form>
+                <div class="info_for_buyer">
+                    <input id="pricelog" data-prefix=" руб./мес." disabled>
+                    <input id="percentages" data-prefix="%" disabled>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- подключение JS (скриптов) -->
+    <script type="module" src="./scripts/main.js"></script>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>

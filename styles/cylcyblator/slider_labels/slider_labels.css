@@ -1,0 +1,28 @@
+
+/* slider labels */
+.slider_container {
+    margin: 3px 0 10px;
+}
+
+.container_for_slider_labels {
+    font-size: .8em;
+}
+
+.container_for_slider_labels span {
+    text-align: center;
+    cursor: pointer;
+}
+
+.container_for_slider_labels span::before {
+
+    content: "|";
+
+    display: block;
+    height: 1px;
+
+    color: white;
+
+    position: relative;
+    top: -14px;
+    
+}

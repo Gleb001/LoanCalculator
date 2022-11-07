@@ -1,0 +1,50 @@
+
+/* cylcyblator window */
+.cylcyblator_window {
+    margin: 25px auto;
+    display: block;
+    max-width: 768px;
+    min-width: 320px;
+}
+
+#cylcyblator_form {
+    
+    border: 1px solid var(--primary-color);
+    border-radius: 15px;
+
+    box-sizing: border-box;
+    padding: 25px;
+
+}
+
+.pricecont, .termcont {
+    display: inline-block;
+    width: 100%;
+}
+
+.pricecont {
+    margin-bottom: 15px;
+}
+
+.termcont {
+    margin-top: 15px;
+}
+
+.pricecont input,
+.termcont input {
+    width: 100%;
+}
+
+.pricecont label input,
+.termcont label input {
+    margin: 10px 0 3px;
+}
+
+.pricecont label p,
+.termcont label p {
+
+    margin: 5px 0;
+
+    font-size: 1.35em;
+
+}
