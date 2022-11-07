@@ -3,7 +3,7 @@
 была взята у [vitya101](https://github.com/vitya101).
 
 # Translation of documentation
-* [На русском](#Документация к JavaScript части проекта)
+* [На русском](#Документация-к-JavaScript-части-проекта)
 * [In English](#Documentation for the JavaScript part of the project)
 
 # Документация к JavaScript части проекта
