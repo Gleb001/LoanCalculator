@@ -4,15 +4,15 @@
 
 # Translation of documentation
 * [На русском](#Документация-к-JavaScript-части-проекта)
-* [In English](#Documentation for the JavaScript part of the project)
+* [In English](#Documentation-for-the-JavaScript-part-of-the-project)
 
 # Документация к JavaScript части проекта
 
 ## Оглавление
-* [Архитектура проекта](##Архитектура проекта)
-* [Словарть проекта](##Словарть проекта)
-    * [Утилита (utility)](###Утилита (utility))
-* [Выводы](##Выводы сделанные в ходе разработки и отладки данного проекта)
+* [Архитектура проекта](##Архитектура-проекта)
+* [Словарть проекта](##Словарть-проекта)
+    * [Утилита (utility)](###Утилита-(utility))
+* [Выводы](##Выводы-сделанные-в-ходе-разработки-и-отладки-данного-проекта)
 
 ## Архитектура проекта
 Архитектура данной программы имеет следующий достаточно
@@ -33,7 +33,7 @@
 Поэтому в папке scripts/ данного проекта лежат два файла в
 папке inputs/, к каждому из которых подключаются требуемые
 определёнными задачами:
-* утилиты ([см. "Cловарь проекта"](###Утилита (utility)));
+* утилиты ([см. "Cловарь проекта"](###Утилита-(utility)));
 * иные подобные программируемые элементы (для получения постоянных
 переменных или функций, для взаимодействия с данными элементами и т.п.).
 Общая схема данного проекта представлена ниже (обозначения схемы
@@ -97,10 +97,10 @@
 # Documentation for the JavaScript part of the project
 
 ## Table of contents
-* [Project architecture](##Project architecture)
-* [Project Dictionary](##Project Dictionary)
+* [Project architecture](##Project-architecture)
+* [Project Dictionary](##Project-Dictionary)
     * [Utility](###Utility)
-* [Conclusions](##Conclusions made during the development and debugging of this project)
+* [Conclusions](##Conclusions-made-during-the-development-and-debugging-of-this-project)
 
 ## Project architecture
 The architecture of this program has the following rather
