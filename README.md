@@ -3,16 +3,16 @@
 была взята у [vitya101](https://github.com/vitya101).
 
 # Translation of documentation
-* ["На русском"](# Документация к JavaScript части проекта)
-* ["In English"](# Documentation for the JavaScript part of the project)
+* [На русском](# Документация к JavaScript части проекта)
+* [In English](# Documentation for the JavaScript part of the project)
 
 # Документация к JavaScript части проекта
 
 ## Оглавление
-* ["Архитектура проекта"](## Архитектура проекта)
-* ["Словарть проекта"](## Словарть проекта)
-    * ["Утилита (utility)"](### Утилита (utility))
-* ["Выводы"](## Выводы сделанные в ходе разработки и отладки данного проекта)
+* [Архитектура проекта](## Архитектура проекта)
+* [Словарть проекта](## Словарть проекта)
+    * [Утилита (utility)](### Утилита (utility))
+* [Выводы](## Выводы сделанные в ходе разработки и отладки данного проекта)
 
 ## Архитектура проекта
 Архитектура данной программы имеет следующий достаточно
@@ -22,7 +22,9 @@
 данной области указано наименование папки;
 * сплошные выделенные прямоугольные области с тектсом внутри -
 файлы с их наименованием.
+
 ![sheme_1](./media/Simplified%20view%20of%20the%20js%20code%20architecture.png)
+
 Как можно увидеть из вышепоказанной схемы, основной 
 скрипт программы должен быть описан внутри файла,
 содержащего прогаммируемые элементы. Например, в данном
@@ -35,8 +37,10 @@
 * иные подобные программируемые элементы (для получения постоянных
 переменных или функций, для взаимодействия с данными элементами и т.п.).
 Общая схема данного проекта представлена ниже (обозначения схемы
-приводятся выше, при описании упрощенной системы проекта):
+приводятся выше, при описании упрощенной системы проекта).
+
 ![sheme_2](./media/file%20script%20structure%20of%20the%20project.png)
+
 Во время разработки описываемой архитектуры данного проекта наибольшее
 внимание уделялось - возможности расширить проект добавлением новых
 утилит или элементов проекта. Поэтому считаю важным остановиться на
@@ -68,7 +72,7 @@
 время на их разрабоку (примерно, 1-3 часов - зависит от
 программиста), однако облегчает поддержку, отладку и изменение
 проекта.
-> При изменении утилиты (например, изменении наименования
+При изменении утилиты (например, изменении наименования
 функции или её аргументов) может потребоваться соответствующие
 изменения во всех разделах проекта, где используется данная
 утилита. Поэтому к разработке самописных утилит (обратите на
@@ -90,16 +94,13 @@
 огромное значение при его разработке и отладке.
 
 
-
-
-
 # Documentation for the JavaScript part of the project
 
 ## Table of contents
-* ["Project architecture"](## Project architecture)
-* ["Project Dictionary"](## Project Dictionary)
-    * ["Utility"](### Utility)
-* ["Conclusions"](## Conclusions made during the development and debugging of this project)
+* [Project architecture](## Project architecture)
+* [Project Dictionary](## Project Dictionary)
+    * [Utility](### Utility)
+* [Conclusions](## Conclusions made during the development and debugging of this project)
 
 ## Project architecture
 The architecture of this program has the following rather
@@ -109,7 +110,9 @@ simplified form, where:
 the name of the folder is indicated at the top left of this area;
 * solid highlighted rectangular areas with text inside -
 files with their names.
+
 ![sheme_1](./media/Simplified%20view%20of%20the%20js%20code%20architecture.png)
+
 As can be seen from the above diagram, the main
 script of the program should be described inside a file
 containing programmable elements. For example, in this
@@ -126,8 +129,10 @@ system): in a small project, inputs act as programmable elements
 (in the Javascript scripting language).
 Therefore, in the scripts/ folder of this project there are
 two files in the inputs/ folder, to each of which the required
-tasks are connected:
+tasks are connected.
+
 ![sheme_2](./media/file%20script%20structure%20of%20the%20project.png)
+
 During the development of the described architecture of this
 project, the greatest attention was paid to the possibility of
 expanding the project by adding new utilities or project elements.
@@ -158,7 +163,7 @@ rather valuable conclusions were made:
 time to develop them (approximately 1-3 hours - depends on
 the programmer), but makes it easier to support, debug and modify
 the project.
-> When changing the utility (for example, changing the name
+When changing the utility (for example, changing the name
 of the function or its arguments), appropriate
 changes may be required in all sections of the project where this
 utility is used. Therefore, the development of self-written utilities
