@@ -8,6 +8,8 @@
 Идея и начальная реализация калькулятора для займов
 была взята у [vitya101](https://github.com/vitya101).
 
+Ссылка на сайт-калькулятор: https://gleb001.github.io/LoanCalculator/
+
 ## Оглавление
 * [Архитектура проекта](##Архитектура-проекта)
 * [Словарть проекта](##Словарть-проекта)
@@ -98,6 +100,8 @@
 
 The idea and initial implementation of the loan calculator
 was taken from [vitya101](https://github.com/vitya101 ).
+
+Link to the calculator website: https://gleb001.github.io/LoanCalculator/
 
 ## Table of contents
 * [Project architecture](##Project-architecture)
