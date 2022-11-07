@@ -3,15 +3,15 @@
 была взята у [vitya101](https://github.com/vitya101).
 
 # Translation of documentation
-* [На русском](# Документация к JavaScript части проекта)
-* [In English](# Documentation for the JavaScript part of the project)
+* [На-русском](# Документация к JavaScript части проекта)
+* [In-English](# Documentation for the JavaScript part of the project)
 
 # Документация к JavaScript части проекта
 
 ## Оглавление
-* [Архитектура проекта](## Архитектура проекта)
-* [Словарть проекта](## Словарть проекта)
-    * [Утилита (utility)](### Утилита (utility))
+* [Архитектура-проекта](## Архитектура проекта)
+* [Словарть-проекта](## Словарть проекта)
+    * [Утилита-(utility)](### Утилита (utility))
 * [Выводы](## Выводы сделанные в ходе разработки и отладки данного проекта)
 
 ## Архитектура проекта
@@ -33,7 +33,7 @@
 Поэтому в папке scripts/ данного проекта лежат два файла в
 папке inputs/, к каждому из которых подключаются требуемые
 определёнными задачами:
-* утилиты ([см. "Cловарь проекта"](### Утилита (utility)));
+* утилиты ([см.-"Cловарь-проекта"](### Утилита (utility)));
 * иные подобные программируемые элементы (для получения постоянных
 переменных или функций, для взаимодействия с данными элементами и т.п.).
 Общая схема данного проекта представлена ниже (обозначения схемы
@@ -97,8 +97,8 @@
 # Documentation for the JavaScript part of the project
 
 ## Table of contents
-* [Project architecture](## Project architecture)
-* [Project Dictionary](## Project Dictionary)
+* [Project-architecture](## Project architecture)
+* [Project-Dictionary](## Project Dictionary)
     * [Utility](### Utility)
 * [Conclusions](## Conclusions made during the development and debugging of this project)
 
@@ -120,7 +120,7 @@ small project, inputs act as programmable elements (in the
 Javascript scripting language).
 Therefore, in the scripts/ folder of this project there are two
 files in:
-* utilities ([see "Project Dictionary"](### Utility)));
+* utilities ([see-"Project-Dictionary"](### Utility)));
 * other similar programmable elements (for obtaining constant
 variables or functions, for interacting with these elements, etc.)
 The general scheme of this project is presented below (the scheme
