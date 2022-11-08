@@ -1,7 +1,9 @@
 
+
 # Translation of documentation
 * [RU version](#Документация-к-скриптовой-части-проекта)
 * [EN version](#Documentation-for-the-script-part-of-the-project)
+
 
 # Документация к скриптовой части проекта
 
@@ -10,10 +12,12 @@
 
 Ссылка на сайт-калькулятор: https://gleb001.github.io/LoanCalculator/
 
+
 ## Оглавление
 * [Архитектура проекта](#Архитектура-проекта)
 * [Словарть проекта](#Словарть-проекта)
 * [Выводы](#Выводы)
+
 
 ## Архитектура проекта
 Архитектура данной программы имеет следующий достаточно
@@ -45,11 +49,9 @@
 
 Во время разработки описываемой архитектуры данного проекта наибольшее
 внимание уделялось - возможности расширить проект добавлением новых
-утилит или элементов проекта. Поэтому считаю важным остановиться на
-данном моменте и уделить ему достаточное внимание. Хотя, вероятно, вы
-и без моей помощи сможете реализовать данную идею.
-Для расширения данного или проекта с подобной архитектурой, вы можете
-использовать два по моему мнению подхода:
+утилит или элементов проекта. Поэтому для расширения данного или
+проекта с подобной архитектурой, вы можете использовать два по
+моему мнению подхода:
 1. Добавление новых утилит в папкt utilities/ и последующее их
 использование в проекте;
 2. Добавление в файлы с программируемыми элементами функций с
@@ -67,6 +69,7 @@
 вспомогательных функций, которые подточены под решение
 определённых задач и могут использоваться в разных разделах /
 частях проекта.
+
 
 ## Выводы
 По окончанию ведению данного небольшого проекта были сделаны
@@ -104,10 +107,12 @@ was taken from [vitya101](https://github.com/vitya101 ).
 
 Link to the calculator website: https://gleb001.github.io/LoanCalculator/
 
+
 ## Table of contents
 * [Project architecture](#Project-architecture)
 * [Project Dictionary](#Project-Dictionary)
 * [Conclusions](#Conclusions)
+
 
 ## Project architecture
 The architecture of this program has the following rather
@@ -141,13 +146,11 @@ tasks are connected.
 
 ![sheme_2](./media/file%20script%20structure%20of%20the%20project.png)
 
-During the development of the described architecture of this
-project, the greatest attention was paid to the possibility of
-expanding the project by adding new utilities or project elements.
-Therefore, I consider it important to focus on this point and pay
-sufficient attention to it. Although, probably, you will be able
-to implement this idea without my help. To expand this or a project
-with a similar architecture, you can use two approaches in my opinion:
+During the development of the described architecture of this project,
+the greatest attention was paid to the possibility of expanding the
+project by adding new utilities or project elements. Therefore, to
+expand this or a project with a similar architecture, you can use
+two approaches in my opinion:
 1. Adding new utilities in the utilities/ folder and then
 using them in the project;
 2. Adding functions to files with programmable elements with
@@ -158,6 +161,7 @@ from being "ideal" in every possible way. Therefore, the revision or
 rejection of the current architecture for the sake of the tasks
 assigned to you is inevitable.
 
+
 ## Project Dictionary
 ### Utility
 **Utility (in this project)** is a certain set of independent
@@ -165,7 +169,8 @@ auxiliary functions that are tailored to solve
 certain tasks and can be used in different sections /
 parts of the project.
 
-## Conclusions made during the development and debugging of this project
+
+## Conclusions
 At the end of the management of this small project, the following
 rather valuable conclusions were made:
 1. Using self-written utilities - takes enough
