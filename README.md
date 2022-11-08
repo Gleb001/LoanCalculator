@@ -11,9 +11,9 @@
 Ссылка на сайт-калькулятор: https://gleb001.github.io/LoanCalculator/
 
 ## Оглавление
-* [Архитектура проекта](##Архитектура-проекта)
-* [Словарть проекта](##-Словарть-проекта)
-* [Выводы](##Выводы-сделанные-в-ходе-разработки-и-отладки-данного-проекта)
+* [Архитектура проекта](## Архитектура проекта)
+* [Словарть проекта](## Словарть проекта)
+* [Выводы](##Выводы)
 
 ## Архитектура проекта
 Архитектура данной программы имеет следующий достаточно
@@ -34,7 +34,7 @@
 Поэтому в папке scripts/ данного проекта лежат два файла в
 папке inputs/, к каждому из которых подключаются требуемые
 определёнными задачами:
-* утилиты ([см. "Cловарь проекта"](###Утилита-(utility)));
+* утилиты ([см. "Cловарь проекта"](###Утилита));
 * иные подобные программируемые элементы (для получения постоянных
 переменных или функций, для взаимодействия с данными элементами и т.п.).
 
@@ -62,13 +62,13 @@
 
 
 ## Словарть проекта
-### Утилита (utility)
+### Утилита
 **Утилита (в данном проекте)** - это определённый набор независимых
 вспомогательных функций, которые подточены под решение
 определённых задач и могут использоваться в разных разделах /
 частях проекта.
 
-## Выводы сделанные в ходе разработки и отладки данного проекта
+## Выводы
 По окончанию ведению данного небольшого проекта были сделаны
 следующие достаточно ценные выводы:
 1. Использование самописных утилит - занимает достаточное
@@ -105,9 +105,9 @@ was taken from [vitya101](https://github.com/vitya101 ).
 Link to the calculator website: https://gleb001.github.io/LoanCalculator/
 
 ## Table of contents
-* [Project architecture](##Project-architecture)
-* [Project Dictionary](##Project-Dictionary)
-* [Conclusions](##Conclusions-made-during-the-development-and-debugging-of-this-project)
+* [Project architecture](## Project architecture)
+* [Project Dictionary](## Project Dictionary)
+* [Conclusions](## Conclusions)
 
 ## Project architecture
 The architecture of this program has the following rather
@@ -127,7 +127,7 @@ small project, inputs act as programmable elements (in the
 Javascript scripting language).
 Therefore, in the scripts/ folder of this project there are two
 files in:
-* utilities ([see "Project Dictionary"](###Utility)));
+* utilities ([see "Project Dictionary"](###Utility);
 * other similar programmable elements (for obtaining constant
 variables or functions, for interacting with these elements, etc.).
 
