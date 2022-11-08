@@ -15,7 +15,7 @@
 * [Словарть проекта](##-Словарть-проекта)
 * [Выводы](##Выводы-сделанные-в-ходе-разработки-и-отладки-данного-проекта)
 
-<a name="">## Архитектура проекта</a>
+## Архитектура проекта
 Архитектура данной программы имеет следующий достаточно
 упрощённый вид, где:
 * стрелки - зависимость одного файла от другого;
@@ -37,6 +37,7 @@
 * утилиты ([см. "Cловарь проекта"](###Утилита-(utility)));
 * иные подобные программируемые элементы (для получения постоянных
 переменных или функций, для взаимодействия с данными элементами и т.п.).
+
 Общая схема данного проекта представлена ниже (обозначения схемы
 приводятся выше, при описании упрощенной системы проекта).
 
@@ -53,6 +54,7 @@
 использование в проекте;
 2. Добавление в файлы с программируемыми элементами функций с
 расширенным функционалом.
+
 Но всё же, как вы возможно понимаете, текущая архитектура далеко не
 является "идеальной" во всех возможных отношенях. Поэтому доработка или
 отказ от текущей архитектуры в угоду поставленных перед вами задач - 
@@ -105,7 +107,6 @@ Link to the calculator website: https://gleb001.github.io/LoanCalculator/
 ## Table of contents
 * [Project architecture](##Project-architecture)
 * [Project Dictionary](##Project-Dictionary)
-    * [Utility](###Utility)
 * [Conclusions](##Conclusions-made-during-the-development-and-debugging-of-this-project)
 
 ## Project architecture
@@ -128,7 +129,8 @@ Therefore, in the scripts/ folder of this project there are two
 files in:
 * utilities ([see "Project Dictionary"](###Utility)));
 * other similar programmable elements (for obtaining constant
-variables or functions, for interacting with these elements, etc.)
+variables or functions, for interacting with these elements, etc.).
+
 The general scheme of this project is presented below (the scheme
 designations are given above when describing the simplified project
 system): in a small project, inputs act as programmable elements
@@ -150,6 +152,7 @@ with a similar architecture, you can use two approaches in my opinion:
 using them in the project;
 2. Adding functions to files with programmable elements with
 advanced functionality.
+
 But still, as you may understand, the current architecture is far
 from being "ideal" in every possible way. Therefore, the revision or
 rejection of the current architecture for the sake of the tasks
