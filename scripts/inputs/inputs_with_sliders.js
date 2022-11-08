@@ -27,7 +27,7 @@ const inputs_with_sliders = {
         slider: {
             self: document.getElementById("priceSlider"),
             labels: {
-                number: 11,
+                number: 14,
                 css_class: "priceLabel lb",
             }
         },

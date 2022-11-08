@@ -154,23 +154,25 @@ function _getIndexNumberBeforeComma(number) {
 export function addNumberQuantitativePrefix(number_value) {
 
     // checking the validity of the types of specified arguments
-    if(isValidDataType(number_value, "number")) return;
+    if (!isValidDataType(number_value, "number")) return;
 
     // add a quantitative prefix to a number
-    let result = number_value;
     let number_in_module = Math.abs(number_value);
+    let prefix = "";
+    let divider = 1;
 
-    if (number_in_module >= 1e3) {
-        result = Math.round(number_value / 1e3) + " тыс.";
-    }
-    if (number_in_module >= 1e6) {
-        result = Math.round(number_value / 1e6) + " млн.";
-    }
     if (number_in_module >= 1e9) {
-        result = Math.round(number_value / 1e9) + " млрд.";
+        prefix = " млрд.";
+        divider = 1e9;
+    } else if(number_in_module >= 1e6) {
+        prefix = " млн.";
+        divider = 1e6;
+    } else if(number_in_module >= 1e3) {
+        prefix = " тыс.";
+        divider = 1e3;
     }
 
-    return result;
+    return parseFloat(number_value / divider, 1) + prefix;
 
 }
 

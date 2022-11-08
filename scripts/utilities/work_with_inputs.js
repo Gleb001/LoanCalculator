@@ -75,20 +75,22 @@ function addNumberQuantitativePrefix(number_value) {
     if (!isValidDataType(number_value, "number")) return;
 
     // add a quantitative prefix to a number
-    let result = number_value;
     let number_in_module = Math.abs(number_value);
+    let prefix = "";
+    let divider = 1;
 
-    if (number_in_module >= 1e3) {
-        result = Math.round(number_value / 1e3) + " тыс.";
-    }
-    if (number_in_module >= 1e6) {
-        result = Math.round(number_value / 1e6) + " млн.";
-    }
     if (number_in_module >= 1e9) {
-        result = Math.round(number_value / 1e9) + " млрд.";
+        prefix = " млрд.";
+        divider = 1e9;
+    } else if(number_in_module >= 1e6) {
+        prefix = " млн.";
+        divider = 1e6;
+    } else if(number_in_module >= 1e3) {
+        prefix = " тыс.";
+        divider = 1e3;
     }
 
-    return result;
+    return parseFloat(number_value / divider, 1) + prefix;
 
 }
 
@@ -195,7 +197,7 @@ export function createSliderLabels({
     number_slider_labels = checkForRange({
         check_value: number_slider_labels,
         min_number: 0,
-        max_number: width_slider / 60
+        max_number: Math.floor(width_slider / 60)
     });
     let number_steps = (max_value_slider - min_value_slider) / step_slider;
     let step_between_labels = Math.round(number_steps / --number_slider_labels);
@@ -210,7 +212,7 @@ export function createSliderLabels({
     ) {
 
         let value_label = checkForRange({
-            check_value: (number_steps_label * step_slider),
+            check_value: number_steps_label * step_slider,
             min_number: min_value_slider,
             max_number: max_value_slider
         });
@@ -219,6 +221,7 @@ export function createSliderLabels({
             min_number: 0,
             max_number: (number_steps * width_step_slider)
         });
+
         let slider_label = _createSliderLabel({
             value: value_label,
             position_left_slider: position_left_slider,
